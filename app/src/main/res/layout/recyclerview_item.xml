@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/recyclerview_item"
+    android:padding="15dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/hui"
+        app:cardCornerRadius="30dp"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/modeNub3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="11111"
+                android:layout_marginTop="25dp"
+                android:textColor="#FDFDFD"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/modeName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="50dp"
+                android:text="11111"
+                android:textColor="#FDFDFD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/modeCard_Nub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11111"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#FDFDFD"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout >

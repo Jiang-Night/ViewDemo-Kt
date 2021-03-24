@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/bg"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/modeImage2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/modeName2"
+        android:text="11111111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/modeImage2"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:id="@+id/modeArrow"
+        android:background="@mipmap/ic_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="220dp"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+
+</RelativeLayout>

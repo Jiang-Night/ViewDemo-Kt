@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="me.jiangwan.viewdome.MainFragment"
+        android:label="主页"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="me.jiangwan.viewdome.BlankFragment"
+        android:label="功能"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="me.jiangwan.viewdome.MeFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_me" />
+</navigation>
