@@ -1,0 +1,2 @@
+# ViewDome
+Android小白 仿照dribbble上某个设计图 一个在dribbble上找到的设计图，使用kotlin编写 一共三个页面，由于个人技术有限，比较菜就仿写前两个界面，还有很多缺陷 等之后更厉害了重新回来修改界面，修改不完美的地方 用时一周..（时间少） 欢迎各位大佬下载，有什么不好的地方可以多多提出 English： mitate a design on dribble A design found on dribble, written with kotlin A total of three pages, due to limited personal technology, compare dishes on the imitation of the first two interfaces, there are many defects After that, it's even more powerful. I'll come back to modify the interface again and modify the imperfections It takes a week Welcome you guys to download, what's bad can be put forward
